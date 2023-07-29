@@ -3,3 +3,5 @@ Category: Pwn
 Difficulty: Hard
 Description: I hate the number 6
              Note: If you get a permission denied, you need to run it with sudo
+
+No Dockerfile on this one, we had to make a separate VM so we could run it with privs. If you want to fix this with docker use the --privileged argument.
